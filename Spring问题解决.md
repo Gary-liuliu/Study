@@ -42,36 +42,36 @@ com/heima/JwtTest has been compiled by a more recent version of the Java Runtime
 
 例如：无效的。。。（Java17或者release）
 
-![image-20231205121640997](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20231205121640997.png)
+![image-20231205121640997](assets/image-20231205121640997.png)
 
-![image-20231205121825266](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20231205121825266.png)
+![image-20231205121825266](assets/image-20231205121825266.png)
 
-![image-20231205121842348](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20231205121842348.png)
+![image-20231205121842348](assets/image-20231205121842348.png)
 
-![image-20231205121904470](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20231205121904470.png)
+![image-20231205121904470](assets/image-20231205121904470.png)
 
-![image-20231205121919317](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20231205121919317.png)
+![image-20231205121919317](assets/image-20231205121919317.png)
 
-![image-20231205121932204](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20231205121932204.png)
+![image-20231205121932204](assets/image-20231205121932204.png)
 
 ### 三：Maven项目运行jar包时没有主清单等问题
 
 原本默认的pom文件，多了很多插件，可能有一项影响到了打包
 
-![image-20231205130242406](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20231205130242406.png)
+![image-20231205130242406](assets/image-20231205130242406.png)
 
 而成功时只有一个插件，确定是在创建Maven项目时默认生成的pom文件中的插件导致的
 
-![image-20231205130329260](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20231205130329260.png)
+![image-20231205130329260](assets/image-20231205130329260.png)
 
 成功时有一个original后缀文件，这就是问题所在，在之前打包时没有该文件
 
-![image-20231205130524917](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20231205130524917.png)
+![image-20231205130524917](assets/image-20231205130524917.png)
 
 ### 四：在运行jar时如果java版本不一致的话，可以更换环境变量中的jdk版本
 
 ### 五：创建SpringBoot项目
 
-![image-20240228152616925](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20240228152616925.png)
+![image-20240228152616925](assets/image-20240228152616925.png)
 
-![image-20240228152716516](C:\Users\86182\AppData\Roaming\Typora\typora-user-images\image-20240228152716516.png)
+![image-20240228152716516](assets/image-20240228152716516.png)
